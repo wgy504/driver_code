@@ -1,0 +1,17 @@
+spi1.0
+
+gpio1-20
+
+
+irq_num:212
+
+-------------
+to_irq(chip, gpio - chip->base)
+
+irq = bank->virtual_irq_start + offset;
+
+offset = gpio - chip->base;?
+virtual_irq_start?   160+32*1 = 192
+offset = 20 
+
+irq = 212

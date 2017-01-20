@@ -1,0 +1,2 @@
+/mnt/hgfs/drv_code/kernel_stack_and_irq_stack/irq_stack_test.ko
+/mnt/hgfs/drv_code/kernel_stack_and_irq_stack/irq_stack_test.o

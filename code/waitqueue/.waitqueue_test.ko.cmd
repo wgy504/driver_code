@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/drv_code/waitqueue/waitqueue_test.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/drv_code/waitqueue/waitqueue_test.ko /mnt/hgfs/drv_code/waitqueue/waitqueue_test.o /mnt/hgfs/drv_code/waitqueue/waitqueue_test.mod.o

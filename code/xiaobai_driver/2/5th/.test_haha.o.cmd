@@ -1,0 +1,1 @@
+cmd_/nfsroot/review_driver/2nd_module/5th/test_haha.o := /usr/local/arm/4.3.2/bin/arm-linux-ld -EL    -r -o /nfsroot/review_driver/2nd_module/5th/test_haha.o /nfsroot/review_driver/2nd_module/5th/haha.o /nfsroot/review_driver/2nd_module/5th/test.o 

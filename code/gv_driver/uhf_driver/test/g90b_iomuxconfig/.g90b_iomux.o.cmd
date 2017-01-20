@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/system/new/test/g90b_iomuxconfig/g90b_iomux.o := arm-linux-gnueabihf-ld -EL    -r -o /mnt/hgfs/system/new/test/g90b_iomuxconfig/g90b_iomux.o /mnt/hgfs/system/new/test/g90b_iomuxconfig/g90b_iomux_config.o /mnt/hgfs/system/new/test/g90b_iomuxconfig/gpmc_ext.o 

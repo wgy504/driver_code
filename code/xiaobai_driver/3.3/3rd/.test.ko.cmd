@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/drv_code/xiaobai_driver/3.3/3rd/test.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/drv_code/xiaobai_driver/3.3/3rd/test.ko /mnt/hgfs/drv_code/xiaobai_driver/3.3/3rd/test.o /mnt/hgfs/drv_code/xiaobai_driver/3.3/3rd/test.mod.o

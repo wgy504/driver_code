@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/drv_code/kernel_stack_and_irq_stack/irq_stack_test.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/drv_code/kernel_stack_and_irq_stack/irq_stack_test.ko /mnt/hgfs/drv_code/kernel_stack_and_irq_stack/irq_stack_test.o /mnt/hgfs/drv_code/kernel_stack_and_irq_stack/irq_stack_test.mod.o

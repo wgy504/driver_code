@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/system/new/g90b_spidev/gv_spidev.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/system/new/g90b_spidev/gv_spidev.ko /mnt/hgfs/system/new/g90b_spidev/gv_spidev.o /mnt/hgfs/system/new/g90b_spidev/gv_spidev.mod.o

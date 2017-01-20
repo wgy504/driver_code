@@ -1,0 +1,16 @@
+obj-m += g90_gpmc_fpga.o
+
+all:
+	make -C /home/rwen/g90/linux-2.6.37-psp04.04.00.01 SUBDIRS=$(PWD) modules
+   
+clean:
+	rm *.ko *.mod.c *.bak .tmp_versions Module.symvers *.c.bak* *.o testmymodule \.*.cmd -rf 
+	
+
+cp:
+	cp g90_gpmc_fpga.ko ~/g90/rootfs-g90/genvict/lib
+
+send: 
+	zftp g90_gpmc_fpga.ko /genvict/lib 192.168.9.246
+#	tiny_send IDTmodule.ko 192.168.0.158:/lib 
+ 

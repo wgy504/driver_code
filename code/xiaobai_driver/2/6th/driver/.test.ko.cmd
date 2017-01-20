@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/drv_code/xiaobai_driver/2/6th/driver/test.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/drv_code/xiaobai_driver/2/6th/driver/test.ko /mnt/hgfs/drv_code/xiaobai_driver/2/6th/driver/test.o /mnt/hgfs/drv_code/xiaobai_driver/2/6th/driver/test.mod.o

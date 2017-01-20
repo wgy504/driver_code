@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/system/new/g90b_iomuxconfig/g90b_iomux.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/system/new/g90b_iomuxconfig/g90b_iomux.ko /mnt/hgfs/system/new/g90b_iomuxconfig/g90b_iomux.o /mnt/hgfs/system/new/g90b_iomuxconfig/g90b_iomux.mod.o

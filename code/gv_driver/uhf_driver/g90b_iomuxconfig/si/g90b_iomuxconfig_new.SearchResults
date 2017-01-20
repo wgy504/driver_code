@@ -1,0 +1,9 @@
+---- gpio_wait Matches (8 in 1 files) ----
+G90b_iomux_config.c:    wait_queue_head_t gpio_wait;
+G90b_iomux_config.c:        wake_up_interruptible(&gs_dev.gpio_wait);
+G90b_iomux_config.c:    wake_up_interruptible(&gs_dev.gpio_wait);
+G90b_iomux_config.c:#define GPIO_WAIT_SYNC              _IOR('I', 5, __u32)
+G90b_iomux_config.c:            wait_event_interruptible_timeout(gs_dev.gpio_wait, gs_dev.gpio_event, arg);
+G90b_iomux_config.c:        case GPIO_WAIT_SYNC:
+G90b_iomux_config.c:	poll_wait(file, &gs_dev.gpio_wait, table);
+G90b_iomux_config.c:	init_waitqueue_head(&pdev->gpio_wait);

@@ -1,0 +1,2 @@
+/nfsroot/review_driver/4th_mutex/4th_mutex_4/3th/test.ko
+/nfsroot/review_driver/4th_mutex/4th_mutex_4/3th/test.o

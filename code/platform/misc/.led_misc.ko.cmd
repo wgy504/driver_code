@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/drv_code/platform/misc/led_misc.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/drv_code/platform/misc/led_misc.ko /mnt/hgfs/drv_code/platform/misc/led_misc.o /mnt/hgfs/drv_code/platform/misc/led_misc.mod.o

@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/drv_code/ko_thread/ko/ko_thread.ko := arm-linux-gnueabihf-ld -EL -r  -T /mnt/hgfs/system/linux-3.2-g90b_mini/scripts/module-common.lds --build-id  -o /mnt/hgfs/drv_code/ko_thread/ko/ko_thread.ko /mnt/hgfs/drv_code/ko_thread/ko/ko_thread.o /mnt/hgfs/drv_code/ko_thread/ko/ko_thread.mod.o

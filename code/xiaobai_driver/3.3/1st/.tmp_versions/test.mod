@@ -1,0 +1,2 @@
+/nfsroot/review_driver/3rd_char/3rd_char_3/1st/test.ko
+/nfsroot/review_driver/3rd_char/3rd_char_3/1st/test.o
